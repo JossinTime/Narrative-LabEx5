@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2640829775196873445}
   - component: {fileID: 3996739086164936118}
   m_Layer: 0
-  m_Name: OFFICER GEORGE
+  m_Name: OfficerGeorge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
