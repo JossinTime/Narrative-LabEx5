@@ -6,7 +6,6 @@ Jeni: Hi Joss,How are you?
 You: Hey, Jeni!  I'm good, thanks. How about you?
 Jeni: I'm good too.
 You: You look sad.Everything  okay?
-Jeni: Joss... I need to tell you something. I, um... I lost the ring you gave me.
 <<jump Choose>>
 
 
@@ -32,20 +31,19 @@ title: option2
 position: -328,-67
 ---
 Jeni:I know! I feel terrible about it. I just... I don’t know where it could be.
+YOU:Okay, don’t Panic,I will  help you find it. Let’s think this through. Try to remenber.
+
 
 <<jump noWorry>>
 ===
 title: Choose
 position: -36,-367
 ---
-You:
-    ->The ring? Where did you last see it?
-        <<jump option1>>
-
-    ->You lost it? That was special! 
-        <<jump option2>>
-
-    ->Don't worry, we'll find it. Where have you been today?
-        <<jump noWorry>>
-        
+Jeni:Joss... I need to tell you something. I, um... I lost the ring you gave me.
+->The ring? Where did you last see it?
+    <<jump option1>>
+->You lost it? That was special!
+    <<jump option2>>
+->Don't worry, we'll find it. Where have you been today?
+    <<jump noWorry>>  
 ===
