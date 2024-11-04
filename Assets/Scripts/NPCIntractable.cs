@@ -6,6 +6,7 @@ using Yarn.Unity;
 public class NPCIntractable : MonoBehaviour
 {
     public GameObject speechPrompt;
+    public GameObject questBubble;
     public DialogueRunner runner;
     public string startNode;
     public bool canStartConversation;
@@ -15,6 +16,7 @@ public class NPCIntractable : MonoBehaviour
     {
         runner = FindAnyObjectByType<DialogueRunner>();
         speechPrompt.SetActive(false);
+        questBubble.SetActive(true);
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class NPCIntractable : MonoBehaviour
             if (!runner.IsDialogueRunning && canStartConversation)
             {
                 runner.StartDialogue(startNode);
+                questBubble.SetActive(false);
             }
         }
     }
@@ -35,8 +38,9 @@ public class NPCIntractable : MonoBehaviour
         {
             canStartConversation = true;
             speechPrompt.SetActive(canStartConversation);
+            questBubble.SetActive(false);
 
-            
+
 
         }
     
@@ -48,6 +52,7 @@ public class NPCIntractable : MonoBehaviour
         {
             canStartConversation = false;
             speechPrompt.SetActive(canStartConversation);
+            questBubble.SetActive(false);
             runner.Stop();
         }
 

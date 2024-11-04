@@ -1,0 +1,51 @@
+﻿title: DialuguesJeni
+tags:
+position: -21,-647
+---
+Jeni: Hi Joss,How are you?
+You: Hey, Jeni!  I'm good, thanks. How about you?
+Jeni: I'm good too.
+You: You look sad.Everything  okay?
+Jeni: Joss... I need to tell you something. I, um... I lost the ring you gave me.
+<<jump Choose>>
+
+
+===
+title: noWorry
+position: 34,140
+---
+Jeni:Thank you, Joss. Well, I was at my room, then I went to the Forest I met RoboW. And oh, I did go to the westvillage to get something from RoboH.
+You: Okay, Don't worry you stay  here and I'll go look for it. I'll ask RoboW and RoboH.
+Jeni: Thank you so  much, Joss. I really appreciate it.
+
+===
+title: option1
+position: 331,-166
+---
+Jeni:I think I had it when I left my room. But after that, I am not so sure.
+You: Just calm, and try to remember.
+<<jump noWorry>>
+
+
+===
+title: option2
+position: -328,-67
+---
+Jeni:I know! I feel terrible about it. I just... I don’t know where it could be.
+
+<<jump noWorry>>
+===
+title: Choose
+position: -36,-367
+---
+You:
+    ->The ring? Where did you last see it?
+        <<jump option1>>
+
+    ->You lost it? That was special! 
+        <<jump option2>>
+
+    ->Don't worry, we'll find it. Where have you been today?
+        <<jump noWorry>>
+        
+===
