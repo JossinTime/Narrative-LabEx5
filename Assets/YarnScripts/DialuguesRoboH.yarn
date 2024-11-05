@@ -1,8 +1,51 @@
 ﻿title: DialuguesRoboH
 tags:
+position: -81,-324
 ---
-You: Hi RoboH
-RoboH: Hi! I'm RoboH, a friendly robot. I'm here to
-help you with any questions or tasks you may have. What can I do for you today?
-You: Nothing, Thanks
+You: Hey, RoboH. Quick question for you.
+RoboH: Certainly, Joss. How may I assist?
+<<jump Questions>>
+
 ===
+title: Questions
+position: -77,-55
+---
+->Have you seen Jeni’s ring anywhere?
+    <<jump HerRing>>
+->Do you know if Jeni was around here earlier today?
+    <<jump WasJeniHere>>
+->I need your help finding something important.
+    <<jump HelpFind>>
+===
+title: HerRing
+position: -86,791
+---
+RoboH: Yesterday , She came here, She was helping with some garden  work. so she dropped  her ring here. and i found it later.
+You:  That's great! I was worried I'd lost it forever. Thanks for keeping an eye out for
+RoboH: You're welcome, Joss. I'm glad I could help. take it.
+You:   I really appreciate it. I am going to return it to her.
+RoboH: Have a good day!
+
+===
+title: WasJeniHere
+position: -294,344
+---
+RoboH:Is Jeni Okay?
+You:  Yeah She is absolutely  fine.
+RoboH: Good to hear. The way you asked I though she has gone missing or something.
+You:  No, nothing like that. I just needed to know if she was around here earlier. Actually She lost  her ring.
+<<jump HerRing>>
+
+
+===
+title: HelpFind
+position: 129,354
+---
+RoboH:sure,  I can help you find it. What is it that you are looking for?
+You:  I need your help finding a ring.
+RoboH:  Oh! Now i get it.
+You:  what?
+<<jump HerRing>>
+
+===
+

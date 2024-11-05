@@ -1,12 +1,70 @@
 ﻿title: DialuguesRoboW
 tags:
+position: -19,-310
 ---
 You: Hi RoboW
-RoboW: Hi there! I am protector of this city, How  can I assist you?
-You: I am here to learn about the city's history. Can you tell me about it?
-RoboW: Sorry ! RoboH can answer this, i can help with  other things.
-You: Okay, Thank you
-
+RoboW: Hi Joss! where Have  you been? I have been? Have not seen  you in a while.
+You: Yes , I have been busy with work and stuff. How about you?
+RoboW: Everything  is fine. There are some theives active in this area, Specially the forest area.
+You: Oh no! That's not good. Have you seen them?
+RoboW: Not Yet,  but I have heard some rumors. I am planning to investigate and catch them.
+You: That sounds like a good plan.
+RoboW: By the  way, Do you want something, Why have you come to the forest Area?
+<<jump ForestOptions>>
 
 
 ===
+title: ForestOptions
+position: -19,-87
+---
+You:Actually
+->Just came here for walk.
+    <<jump Forwalk>> 
+->Came here to  meet you.
+    <<jump MeetYou>>
+->Jeni lost her ring.
+    <<jump LostRingForest>>
+===
+
+title: Forwalk
+position: -421,164
+---
+RoboW:  Ah,  nice! I love walking in the forest. It's so peaceful. 
+You:  Yeah, it's really nice. I love the trees and the birds singing.
+RoboW:   I know, right? It's like a different world here.
+You:   Exactly! I feel so relaxed when I'm here.
+RoboW:Me too! I'm glad we could take a walk together.
+You: Not for now,  I have a questin,  Did  you see any Ring  in the forest?
+RoboW:  No, I didn't see any ring. What happened, Whose  ring is it?
+You: Jeni's ring. She lost it.
+    <<jump LostRingForest>>
+===
+title: MeetYou
+position: 418,154
+---
+RoboW:   Ah, nice! I'm glad you came to meet me. I was hoping we could catch.
+You:  By the Way how is Everything going?
+RoboW:  Everything is fine. What about You? and How  is Jeni doing?
+You: She is fine. She is a bit worried about her ring.
+RoboW: Ring? what happened to her ring?
+You:She lost it.
+<<jump LostRingForest>>
+
+===
+title: LostRingForest
+position: -24,352
+---
+RoboW: Here in forest?
+You: She is not sure, She  said she was walking here.
+RoboW: Today in  the morning, I checked the whole area , I did not see anything.
+You: Maybe she lost it somewhere else.
+RoboW: Or May the  thief took it.
+You: That could  be. But She said she also went smallTown.
+RoboW: Okay , I will check here and RoboH lives in smallTown , I will ask him.
+You: No ,  I am going  to smallTown to ask him.
+RoboW: Oh  , I see. I will stay here. If you find it there just  let me know.
+You: I will. Thanks RoboW.
+RoboW: You are welcome. Good luck.
+
+===
+

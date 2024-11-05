@@ -10,7 +10,7 @@ You:I am good Sir.
 OfficerGeorge:Are you new in the town because I have not seen you before.
 You:Ohh, no i am from cheese village sir.
 OfficerGeorge:Oh' okay
-<<jump Choose>>
+<<jump choose>>
 
 ===
 
@@ -48,9 +48,9 @@ position: -330,-177
 ---
 
 ->Sir can you tell where is the park.
-<<park>>
+    <<jump park>>
 ->Sir can you tell where is this house located.
-<<houselocation>>
+    <<jump houselocation>>
 ->Sir what is the timing for the auto garage.
-<<garagetiming>>
+    <<jump garagetiming>>
 ===
