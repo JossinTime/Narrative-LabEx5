@@ -1,11 +1,56 @@
 ﻿title: OfficerGeorge
 tags:
+position: -7,-197
 ---
-Yoy: Hello ji
-Geo: Hii ji
+You:Hello Sir
+OfficerGeorge:Hi
+You:How are you Sir.
+OfficerGeorge:I am doing great, what about you.
+You:I am good Sir.
+OfficerGeorge:Are you new in the town because I have not seen you before.
+You:Ohh, no i am from cheese village sir.
+OfficerGeorge:Oh' okay
+<<jump Choose>>
 
+===
 
-->A
-->B
-->C
+title:park
+position: 1,-40
+---
+You:Hey officer can you tell me the direction for the park.
+OfficerGeorge:sure, Our park attracts alot of attention because it is very clean and beautyful.
+You:yes you are right sir I had heard from alot of people that the park is the place to visit.
+OfficerGeorge:Okay, now here are the direction, you go straight down from here and just after crossing the auto garage you will see the park.
+You:Thankyou officer.
+OfficerGeorge:My pleasure sir. have a nice day.
+
+===
+
+title:houselocation
+position: -125,163
+---
+You:hey officer can you tell me where is house is.
+OfficerGeorge:yeah, sure it is right next to the park.
+YOU:thanks Officer.
+Officer:Its all right.
+
+===
+title:garagetiming
+position: 192,154
+---
+You:Sir can you tell me on what time the auto garage will close.
+OfficerGeorge:yes, i will close at 6pm
+You:appreciate that sir, have a nice day.
+
+===
+title: choose
+position: -330,-177
+---
+
+->Sir can you tell where is the park.
+<<park>>
+->Sir can you tell where is this house located.
+<<houselocation>>
+->Sir what is the timing for the auto garage.
+<<garagetiming>>
 ===

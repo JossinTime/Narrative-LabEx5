@@ -1,8 +1,28 @@
 ﻿title: DialogueMrsad
 tags:
+position: -25,-43
 ---
-You: Hi Mr Sad
-RoboH: Hi! I'm RoboH, a friendly robot. I'm here to
-help you with any questions or tasks you may have. What can I do for you today?
-You: Nothing, Thanks
+You: Hello
+MrSad:Hi
+You:How are you
+MrSad:I am not feeling good
+You:why, what happen
+MrSad:I don’t know
+You:What is your name?
+MrSad:My name is Sad.
+You:Sad, haha What a name man.
+MrSad:See that's why I am not feeling good, Everybody in the the town make fun of me because of my name.
+You:I am so sorry man I thought you are jooking with me about your name.
+<<jump Choose>>
+
+===
+title: Taklmore
+position: -138,133
+---
+You:hey, dude don’t be sad, its a pleasent day.
+MrSad:But eneryone make fun of me.
+You:Its not a big thing dude, don’t worry about them, you are perfect.
+MrSad:Are you serious, my name is Sad.
+You:You have to believe in you first.
+MrSad:I think you are right
 ===
