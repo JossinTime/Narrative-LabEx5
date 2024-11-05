@@ -4917,7 +4917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -225.566, y: -119.038}
+  m_AnchoredPosition: {x: -189.2, y: -99.2}
   m_SizeDelta: {x: 348.6359, y: 172.6314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231232685
@@ -9399,7 +9399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -256.266, y: -111.662}
+  m_AnchoredPosition: {x: -220, y: -91.52}
   m_SizeDelta: {x: 348.6359, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431735313
@@ -17720,7 +17720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -273.122, y: -111.66}
+  m_AnchoredPosition: {x: -237.6, y: -91.9}
   m_SizeDelta: {x: 348.6359, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &761511906
@@ -17808,7 +17808,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -55.12066}
+  m_margin: {x: 0, y: 0, z: 0, w: -114.2281}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -20240,7 +20240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206.087, y: -114.768}
+  m_AnchoredPosition: {x: -170.3, y: -95}
   m_SizeDelta: {x: 348.6359, y: 172.6314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888447804
@@ -30465,7 +30465,7 @@ Transform:
   m_GameObject: {fileID: 1385173094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.906414, y: 16.22037, z: 0.35360354}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31336,7 +31336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: -143.42}
+  m_AnchoredPosition: {x: -247.1, y: -123.2}
   m_SizeDelta: {x: 348.6359, y: 172.6314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1444526445
@@ -34332,6 +34332,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2506575946066765064, guid: 48f65a4d74585c9438bb05af25bb3977, type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7443971817783276958, guid: 48f65a4d74585c9438bb05af25bb3977, type: 3}
       propertyPath: m_Name
       value: tree (29)
@@ -37069,7 +37073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -207.919, y: -119.434}
+  m_AnchoredPosition: {x: -172.3, y: -99.3}
   m_SizeDelta: {x: 348.6359, y: 172.6314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1723172580
@@ -37092,9 +37096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Anmol Dialogues
-
-    By Anmol'
+  m_text: "Anmol \nDialogues\nBy Anmol"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
