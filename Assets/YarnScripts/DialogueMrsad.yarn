@@ -1,6 +1,6 @@
 ﻿title: DialogueMrsad
 tags:
-position: -25,-43
+position: -60,-478
 ---
 You: Hello
 MrSad:Hi
@@ -16,13 +16,47 @@ You:I am so sorry man I thought you are jooking with me about your name.
 <<jump Taklmore>>
 
 ===
-title: Taklmore
-position: -138,133
+title: heydude
+position: -60,249
 ---
 You:hey, dude don’t be sad, its a pleasent day.
 MrSad:But eneryone make fun of me.
 You:Its not a big thing dude, don’t worry about them, you are perfect.
 MrSad:Are you serious, my name is Sad.
 You:You have to believe in you first.
-MrSad:I think you are right
+MrSad:I think you are right, I have to belive in me, thanks for boosting my confidence.
+You:No worries, have a great day.
+MrSad:You too
+===
+title: Taklmore
+position: -63,-257
+---
+->hey, dude don’t be sad, its a pleasent day
+<<jump heydude>>
+->hey,dude where is the police station
+<<jump policestation>>
+->don’t be sad and live a happy life
+<<jump happylife>>
+===
+title: policestation
+position: 66,-2
+---
+You:hey can you tell me where is the police station.
+MrSad:what happened, you got robbed or something.
+You:no I just want to clarify something.
+MrSad:oh' okay, go straight and then take a left and you will see the station.
+You:Thanks.
+<<jump heydude>>
+===
+title: happylife
+position: -185,7
+---
+You:don’t be sad and live a happy life.
+MrSad:there is nothing to be happy about in my life.
+You:comeone be happy and find happiness in little things in your life
+MrSad:How
+You:By doing something, travelling or by making new friends.
+MrSad:okay, I will try to do that
+You:you better be, i you want to live your life
+<<jump heydude>>
 ===

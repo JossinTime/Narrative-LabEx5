@@ -1,6 +1,6 @@
-﻿title: OfficerGeorge
+title: OfficerGeorge
 tags:
-position: -7,-197
+position: -294,-854
 ---
 You:Hello Sir
 OfficerGeorge:Hi
@@ -10,12 +10,22 @@ You:I am good Sir.
 OfficerGeorge:Are you new in the town because I have not seen you before.
 You:Ohh, no i am from cheese village sir.
 OfficerGeorge:Oh' okay
-<<jump choose>>
+<<jump select>>
 
 ===
+title: select
+position: -296,-580
+---
 
+->Sir can you tell where is the park.
+<<jump park>>
+->Sir can you tell where is this house located.
+<<jump houselocation>>
+->Sir what is the timing for the auto garage.
+<<jump garagetiming>>
+===
 title:park
-position: 1,-40
+position: -301,38
 ---
 You:Hey officer can you tell me the direction for the park.
 OfficerGeorge:sure, Our park attracts alot of attention because it is very clean and beautyful.
@@ -23,34 +33,22 @@ You:yes you are right sir I had heard from alot of people that the park is the p
 OfficerGeorge:Okay, now here are the direction, you go straight down from here and just after crossing the auto garage you will see the park.
 You:Thankyou officer.
 OfficerGeorge:My pleasure sir. have a nice day.
-
 ===
 
 title:houselocation
-position: -125,163
+position: -438,-219
 ---
 You:hey officer can you tell me where is house is.
 OfficerGeorge:yeah, sure it is right next to the park.
 YOU:thanks Officer.
 Officer:Its all right.
-
+<<jump park>>
 ===
 title:garagetiming
-position: 192,154
+position: -158,-221
 ---
 You:Sir can you tell me on what time the auto garage will close.
 OfficerGeorge:yes, i will close at 6pm
 You:appreciate that sir, have a nice day.
-
-===
-title: choose
-position: -330,-177
----
-
-->Sir can you tell where is the park.
-    <<jump park>>
-->Sir can you tell where is this house located.
-    <<jump houselocation>>
-->Sir what is the timing for the auto garage.
-    <<jump garagetiming>>
+<<jump park>>
 ===

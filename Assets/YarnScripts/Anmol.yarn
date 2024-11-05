@@ -1,11 +1,64 @@
 ﻿title: Anmol
 tags:
+position: 96,-518
 ---
-Anmol:Hello Babita Ji
-BabitaJi: Hiii
+You:Hello
+Anmol:hii
+You:How are you doing today
+Anmol:I am good What about you
+You:Good, my name is Joss
+Anmol:Nice to meet you Joss,i am Anmol
+You:ohh' I think you are the owner of the auto garage.
+Anmol:yes
+You:I want to ask you some questions
+Anmol:Sure
+<<jump pick>>
+===
+title: pick
+position: 94,-230
+---
 
+->I had Heard that you take old car at good prize
+<<jump sell>>
+->I want to buy a second hand car
+<<jump buy>>
+->Can you restore my car
+<<jump restore>>
+===
+title: restore
+position: 94,442
+---
+You:My car is a 10 year old honda 
+Anmol:Oh,honda make great cars
+You:yes but there are some problems in its
+Anmol:tell me the problems so i can you the solution
+You:Robbers stole many things from it and now it does not run and also insurance company is not giving a cent.
+Anmol:That sounds bad, okay give me your address and i will come and check it for you.
+You:That sound amazing, thank you sir.
+Anmol:Its all right
 
-->C
-->D
-->E
+===
+title: sell
+position: -61,116
+---
+You:I want to sell a none running car.
+Anmol:okay, can you tell me the details of it.
+You:Sure it is a 2014 Honda in silver colour.
+Anmol:I am not sure, I have to take a look at it first.
+You:Okay i will provide you some pictures.
+Anmol:yes sure
+<<jump restore>>
+===
+title: buy
+position: 238,124
+---
+You:so want to buy a second car
+Anmol:Okay, can you tell me your budget.
+You:Yes, it is around 3000$
+Anmol:Sorry i only have one car for sale now and it is 15000$.
+You:ohh' that 5 times my budget
+Anmol:Yes
+You:Thanks for giving your times
+Anmol:Not a problem
+<<jump restore>>
 ===
