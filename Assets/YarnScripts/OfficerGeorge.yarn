@@ -18,11 +18,11 @@ position: -296,-580
 ---
 
 ->Sir can you tell where is the park.
-<<jump park>>
+    <<jump park>>
 ->Sir can you tell where is this house located.
-<<jump houselocation>>
+    <<jump houselocation>>
 ->Sir what is the timing for the auto garage.
-<<jump garagetiming>>
+    <<jump garagetiming>>
 ===
 title:park
 position: -301,38

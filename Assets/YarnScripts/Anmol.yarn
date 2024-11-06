@@ -19,11 +19,11 @@ position: 94,-230
 ---
 
 ->I had Heard that you take old car at good prize
-<<jump sell>>
+    <<jump sell>>
 ->I want to buy a second hand car
-<<jump buy>>
+    <<jump buy>>
 ->Can you restore my car
-<<jump restore>>
+    <<jump restore>>
 ===
 title: restore
 position: 94,442

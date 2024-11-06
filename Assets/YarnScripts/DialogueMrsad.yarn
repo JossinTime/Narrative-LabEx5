@@ -12,7 +12,7 @@ You:What is your name?
 MrSad:My name is Sad.
 You:Sad, haha What a name man.
 MrSad:See that's why I am not feeling good, Everybody in the the town make fun of me because of my name.
-You:I am so sorry man I thought you are jooking with me about your name.
+
 <<jump Taklmore>>
 
 ===
@@ -31,12 +31,13 @@ MrSad:You too
 title: Taklmore
 position: -63,-257
 ---
+You:I am so sorry man I thought you are jooking with me about your name.
 ->hey, dude don’t be sad, its a pleasent day
-<<jump heydude>>
+    <<jump heydude>>
 ->hey,dude where is the police station
-<<jump policestation>>
+    <<jump policestation>>
 ->don’t be sad and live a happy life
-<<jump happylife>>
+    <<jump happylife>>
 ===
 title: policestation
 position: 66,-2
