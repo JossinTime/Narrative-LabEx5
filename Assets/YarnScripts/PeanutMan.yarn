@@ -1,18 +1,26 @@
 ﻿title: PeanutMan
 tags:
-position: -27,-212
+position: -80,-405
 ---
+<<declare $HasPeanutItem = false>>
+<<declare $hastalked_PeanutMan = false>>
+<<declare $PeanutCoupon = true>>
+<<declare $PeanutQuestComplete = false>>
 You:Hello Peanut Man! (By Jaxen Lamb-200601953)
 -> how is it going
     Peanut Man:Hello! I am doing very well sir. I just thought of an idea for a Chocolate and Snow flavoured Candy Company.
     ->Sounds Interesting tell me more
-    Peanut Man: Well Snows Tasty, Chocolates Tasty, why not try them together? But if i could use your help if you have the time.
-        -> [QUEST LINE] Sure what do you need?
-            Peanut Man: I need you to get something from King Snow Balls cousin, Golden Meta King Snowball.  
-                -> Sure thing where do i find Golden Meta King Snowball.
-                    <jump SomeOfYouMayDie>
-                -> I fucking hate King Snowball so much. 
-                     <jump That_fucking_snowball_i_hate>
+    Peanut Man: Well Snows Tasty, Chocolates Tasty, why not try them together?
+        if($PeanutQuestComplete = false)
+            ->Do you need any help?||this will start the Peanut Dream Quest, by Jaxen Lamb-200601953|| 
+            Peanut Man: Actually, i could use your help for something.
+                -> Sure what do you need?
+                    Peanut Man: I need you to get something from King Snow Balls cousin, Golden Meta King Snowball.  
+                        -> Sure thing where do i find Golden Meta King Snowball.
+                            <jump SomeOfYouMayDie>
+                        -> I fucking hate King Snowball so much. 
+                            <<jump That_fucking_snowball_i_hate>>
+                -> On Second Thought im afriad i cant. Maybe some other time. 
         -> Are you sure that would be profitable.
             Peanut Man: Well, Thrills caught on, so yes
         -> What are the logistics of that. Snow needs to be stored at cold tempartures while Chocolate doesnt.
@@ -23,22 +31,38 @@ You:Hello Peanut Man! (By Jaxen Lamb-200601953)
         Peanut Man: I am a lawyer. Arizona State to. 
     ->sorry, this is unrelated but why are you a giant Peanut? Like your wearing Winter Clothes but still arent you kinda out of place?
         Peanut Man: Jaxen couldnt draw a Snow Man.
+if($HasPeanutItem = true)
+    -> Hey i got your snowball machine.
+    <<jump PeanutQuestConclusion>>
 -> just passing by.
 ===
 title: That_fucking_snowball_i_hate
-position: -27,-212
+position: -261,-36
 ---
 Peanut Man: Its a totally different character trust me bruh. 
     -> it literally uses the exact same sprite. Its colored via the unity function. 
-        <jump That_fucking_snowball_i_hate>
+        <<jump That_fucking_snowball_i_hate>>
     ->Acoridng to who? Mattel?!
-        <jump That_fucking_snowball_i_hate>
+        <<jump That_fucking_snowball_i_hate>>
     -> ok fine where do i find "Golden Meta" King Snowball.
-        jump <SomeOfYouMayDie>
+        <<jump SomeOfYouMayDie>>
 ===
 title: SomeOfYouMayDie
-position: -27,-40
+position: -88,96
 ---
 PeanutMan: He lives under a tree not far from Greenland. Exit this area and go up the first road. He should be under the second tree up.
-->
+->Alright thank you, i will be on my way.  
+    <<set $hastalked_PeanutMan = true>>
+===
+title: PeanutQuestConclusion
+position: 159,-81
+---
+Peanut Man: Wow thank you! I can start my buissness now! You know what, for your trouble, il give you a coupon for some free Chocolate.
+<<set $PeanutCoupon = true>>
+<<set $PeanutQuestComplete = true>>
+    ->Thanks Peanut Man! I look forward to your opening date.
+    ->Wait you live in a cold area? why do you need a snow machine
+        Peanut Man: i didnt google it but im pretty sure the FDA wouldnt approve me using snow from the ground
+            -> Huh... not that i think your stupid but i didnt except an actually good explaination for that.
+                <<jump PeanutQuestConclusion>>
 ===

@@ -1,0 +1,28 @@
+﻿title: GoldKingSnowBall
+tags:
+---
+You: Hello Golden Meta King Snowball.  
+-> What is youre relationship with King Snowball
+    Gold Meta King Snowball: Cousin. 
+->How are you gold?
+    Gold Meta King Snowball: 10 push ups
+        -> how did you do a push up with no arms?
+            Gold Meta King Snowball: Honestly bro, i have no clue myself.
+-> Are you related to Meta Knight?
+    Gold Meta King Snowball: No.
+If($hastalked_PeanutMan = true $$ $HasPeanutItem = false)
+    ->Peanutman sent me to collect an item. 
+    <<jump SBquest>>
+-> Just passing through.
+===
+title: SBquest
+position: 21,240
+---
+Golden Meta King Snowball: oh cool. Yeah i got a snow machine for him. 
+    <<set $HasPeanutItem = true>>
+    -> Thanks i will be taking this too him.
+    ->So ...should i ask what the implications of this are?
+        Gold Meta King Snowball: Dude, i know what your thinking, and i have no idea how me or my cousin are alive either. I dont think its like an anthromorphic cow eating steak but no promises...Bro.
+            <<jump SBquest>>
+    
+===
