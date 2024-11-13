@@ -1,64 +1,36 @@
 ﻿title: Anmol
 tags:
-position: 96,-518
+position: 41,-149
 ---
-You:Hello
-Anmol:hii
-You:How are you doing today
-Anmol:I am good What about you
-You:Good, my name is Joss
-Anmol:Nice to meet you Joss,i am Anmol
-You:ohh' I think you are the owner of the auto garage.
-Anmol:yes
-You:I want to ask you some questions
-Anmol:Sure
-<<jump pick>>
-===
-title: pick
-position: 94,-230
----
+Joss:"Hey, Anmol, Officer George sent me. I hear you've noticed some odd electrical stuff around the power station?
+Anmol: "Yeah, I’ve been working there late at night. There’s been some strange surges in the power grid—it's like someone is tampering with it.
+Joss:What, are you serious?
+Anmol: "But that's not all... I found something strange. A weird symbol etched on the power lines... It looked like some kind of... sigil.
 
-->I had Heard that you take old car at good prize
-    <<jump sell>>
-->I want to buy a second hand car
-    <<jump buy>>
-->Can you restore my car
-    <<jump restore>>
-===
-title: restore
-position: 94,442
----
-You:My car is a 10 year old honda 
-Anmol:Oh,honda make great cars
-You:yes but there are some problems in its
-Anmol:tell me the problems so i can you the solution
-You:Robbers stole many things from it and now it does not run and also insurance company is not giving a cent.
-Anmol:That sounds bad, okay give me your address and i will come and check it for you.
-You:That sound amazing, thank you sir.
-Anmol:Its all right
+
+-> Ask about the sigil.
+    <<jump one>>
+-> Ask where the symbol was found.
+    <<jump Two>>
 
 ===
-title: sell
-position: -61,116
+title: one
+position: -81,59
 ---
-You:I want to sell a none running car.
-Anmol:okay, can you tell me the details of it.
-You:Sure it is a 2014 Honda in silver colour.
-Anmol:I am not sure, I have to take a look at it first.
-You:Okay i will provide you some pictures.
-Anmol:yes sure
-<<jump restore>>
+Joss: "What does the sigil mean?
+Anmol: "I’m not sure, but it looks like a symbol tied to an old local legend. Some say it’s tied to an ancient ritual.
+
 ===
-title: buy
-position: 238,124
+title: Two
+position: 200,41
 ---
-You:so want to buy a second car
-Anmol:Okay, can you tell me your budget.
-You:Yes, it is around 3000$
-Anmol:Sorry i only have one car for sale now and it is 15000$.
-You:ohh' that 5 times my budget
-Anmol:Yes
-You:Thanks for giving your times
-Anmol:Not a problem
-<<jump restore>>
+Anmol: Your next step: Find the location where the symbol was found.
+Joss:Where exactly did you find the symbol?
+Anmol: "It was near the old generator at the back of the station. I suggest you check it out.
+Anmol:Your next step: Head to the power station.
+===
+title: Node
+position: -180,20
+---
+
 ===

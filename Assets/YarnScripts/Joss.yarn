@@ -1,0 +1,30 @@
+﻿title: Joss
+tags:
+---
+Joss: Finally I am at the old power station. Ohh the lights are flickering above, and a strange chill fills the air. Is that a symbol etched on the generator?
+
+
+-> Enter the building to investigate.
+    <<jump number1>>
+-> Call Officer George for backup.
+    <<jump number2>>
+
+
+===
+title: number1
+position: -96,190
+---
+Joss:I have to investigate. Let’s see what’s inside.
+Joss:I am in the building now, oh my god there is a group of figures huddled around the power grid , are they performing a ritual! They are  starting to chant, ohh the  lights are beginning to flicker more violently now.
+
+Joss:Yes!! I uncovered the hidden cult performing the ritual to control the lights in Washington!
+
+===
+title: Number2
+position: 208,10
+---
+Joss:I need backup. I am Calling Officer George!
+Officer George: "Stay put, Joss. We’re coming.
+Joss:Thank God, Officer George arrives with reinforcements and the ritual is stopped, and the cult is arrested
+
+===

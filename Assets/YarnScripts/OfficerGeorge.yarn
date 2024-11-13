@@ -1,54 +1,31 @@
-title: OfficerGeorge
+﻿title: Officergeorge
 tags:
-position: -294,-854
----
-You:Hello Sir
-OfficerGeorge:Hi
-You:How are you Sir.
-OfficerGeorge:I am doing great, what about you.
-You:I am good Sir.
-OfficerGeorge:Are you new in the town because I have not seen you before.
-You:Ohh, no i am from cheese village sir.
-OfficerGeorge:Oh' okay
-<<jump select>>
-
-===
-title: select
-position: -296,-580
+position: 38,-166
 ---
 
-->Sir can you tell where is the park.
-    <<jump park>>
-->Sir can you tell where is this house located.
-    <<jump houselocation>>
-->Sir what is the timing for the auto garage.
-    <<jump garagetiming>>
-===
-title:park
-position: -301,38
----
-You:Hey officer can you tell me the direction for the park.
-OfficerGeorge:sure, Our park attracts alot of attention because it is very clean and beautyful.
-You:yes you are right sir I had heard from alot of people that the park is the place to visit.
-OfficerGeorge:Okay, now here are the direction, you go straight down from here and just after crossing the auto garage you will see the park.
-You:Thankyou officer.
-OfficerGeorge:My pleasure sir. have a nice day.
-===
+Joss: "Hey, Officer George, I heard there have been strange things happening around here. What's going on?
+Officer George: "Joss, we’re dealing with something odd in Washington. The lights flicker, weird noises at night... and people have been disappearing.
+Officer George: "I need your help to figure out what’s going on.
 
-title:houselocation
-position: -438,-219
----
-You:hey officer can you tell me where is house is.
-OfficerGeorge:yeah, sure it is right next to the park.
-YOU:thanks Officer.
-Officer:Its all right.
-<<jump park>>
+Your options
+-> Ask where to start investigating.
+    <<jump option1>>
+-> Ask if anyone has noticed anything unusual.
+    <<jump option2>>
+
+
 ===
-title:garagetiming
-position: -158,-221
+title: option1
+position: -134,133
 ---
-You:Sir can you tell me on what time the auto garage will close.
-OfficerGeorge:yes, i will close at 6pm
-You:appreciate that sir, have a nice day.
-<<jump park>>
+Joss:Where should I start investigating?
+Officer George: "Anmol, the mechanic, noticed some electrical issues near the old power station. Go talk to him, maybe he’s seen something unusual.
+Officer George:Your next step: Go to Anmol's workshop.
+===
+title: option2
+position: 274,242
+---
+Joss:Has anyone noticed anything unusual?
+Officer George: "Some say they heard whispers in the night. And some of the lights flicker when they approach certain areas of the town.
+Officer George:Your next step: Go to Anmol's workshop.
 ===
