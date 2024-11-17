@@ -5,7 +5,7 @@ position: -93,-222
 <<declare $ElaraInteraction = 0>>
 
 <<if $ElaraInteraction == 0>>
-Joss(By Ashish Kumar 200603125):Hey Elara I heard some rumors.
+Joss(“Echos of the Past" By Ashish Kumar 200603125):Hey Elara I heard some rumors.
 Elara:Please, you must help me! Something precious has vanished… my locket.
 Joss:
 ->A locket? Why is it so important?
