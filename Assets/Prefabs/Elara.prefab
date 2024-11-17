@@ -31,7 +31,7 @@ Transform:
   m_LocalScale: {x: 0.30590236, y: 0.30590236, z: 0.30590236}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3015699591737249528}
+  - {fileID: 544809470593891476}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1713666919701723928
@@ -121,7 +121,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.018074421, y: -0.07372463}
   m_Size: {x: 0.25739953, y: 0.33255073}
   m_Direction: 0
---- !u!1001 &547157450505221893
+--- !u!1001 &3008830422162081129
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -131,15 +131,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.21
+      value: 7.12
       objectReference: {fileID: 0}
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.21
+      value: 7.12
       objectReference: {fileID: 0}
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.21
+      value: 7.12
       objectReference: {fileID: 0}
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -147,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.63
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -181,10 +181,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5242861043374327040, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_Name
       value: Dialogue Trigger
@@ -198,8 +194,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
---- !u!4 &3015699591737249528 stripped
+--- !u!4 &544809470593891476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3336619768757647869, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
-  m_PrefabInstance: {fileID: 547157450505221893}
+  m_PrefabInstance: {fileID: 3008830422162081129}
   m_PrefabAsset: {fileID: 0}

@@ -9108,6 +9108,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6036973691627025148, guid: 163882ae4d3d38548b2e5973244d3c1c, type: 3}
   m_PrefabInstance: {fileID: 391045154}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &394119844 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+  m_PrefabInstance: {fileID: 897235639}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &395709441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23216,7 +23227,6 @@ GameObject:
   m_Component:
   - component: {fileID: 982661692}
   - component: {fileID: 982661691}
-  - component: {fileID: 982661693}
   m_Layer: 0
   m_Name: journal
   m_TagString: Untagged
@@ -23292,19 +23302,6 @@ Transform:
   - {fileID: 1778793818}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &982661693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 982661690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49948adc129c0b44591e11777da91953, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Journal: {fileID: 982661690}
 --- !u!1 &986893295
 GameObject:
   m_ObjectHideFlags: 0
@@ -42126,6 +42123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Elara
       objectReference: {fileID: 0}
+    - target: {fileID: 5525368069479497791, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
+      propertyPath: runner
+      value: 
+      objectReference: {fileID: 394119844}
     - target: {fileID: 5525368069479497791, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: canStartConversation
       value: 0
