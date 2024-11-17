@@ -492,4 +492,4 @@ MonoBehaviour:
   questBubble: {fileID: 68830914410594435}
   runner: {fileID: 0}
   startNode: 
-  canStartConversation: 0
+  canStartConversation: 1

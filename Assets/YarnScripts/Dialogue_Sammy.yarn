@@ -1,4 +1,4 @@
-﻿title: Sammy
+﻿title: Dialogue_Sammy
 tags:
 ---
 <<declare $SammyInteraction = 0>>
