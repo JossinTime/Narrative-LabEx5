@@ -7,7 +7,7 @@ position: -93,-222
 <<if $ElaraInteraction == 0>>
 Joss(By Ashish Kumar 200603125):Hey Elara I heard some rumors.
 Elara:Please, you must help me! Something precious has vanished… my locket.
-Juss:
+Joss:
 ->A locket? Why is it so important?
 ->Just a locket. Why do you care so much?
 Elara: I don’t know.I was sleeping while it's gone, but heard someone have seen something.
