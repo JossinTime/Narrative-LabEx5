@@ -1,11 +1,25 @@
 ﻿title: Sammy
 tags:
 ---
-Joss:Hii Sammy, I heard you saw something last night.
+<<declare $SammyInteraction = 0>>
+<<if $SammyInteraction == 0>>
+Joss:Hii Sammy, I heard you saw something last night.(By Ashish Kumar 200603125)
 Sammy:I…. I saw it. The shadow took the locket.  But it wasn’t just a  shadow—it whispered a name. It said… it was coming back."
 Joss:Whose name did it whisper, Sammy?
 Sammy:It said... it said "Elara".
 Joss:Where did it go then?
 Sammy:It went towards the forest
 Joss:Thanks Sammy! See you again
+<<set $SammyInteraction = 1>>
+<<stop>>
+
+<<elseif $SammyInteraction == 1>>
+Sammy: Hi Joss, Did you find Something.
+Joss: No, I didn't find anything.
+Sammy: Okay Take care Joss.
+Joss:You too.
+
+
+<<endif>>
+
 ===

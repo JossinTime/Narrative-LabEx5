@@ -21981,12 +21981,16 @@ PrefabInstance:
       value: Dialogue Trigger 2
       objectReference: {fileID: 0}
     - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: runner
+      value: 
+      objectReference: {fileID: 1519416587}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: startNode
-      value: Elara
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: canStartConversation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092245684827075779, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: m_SortingOrder
@@ -27315,6 +27319,10 @@ PrefabInstance:
       propertyPath: startNode
       value: Sammy
       objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27403,8 +27411,8 @@ Transform:
   m_GameObject: {fileID: 1141997416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.217, y: 15.7, z: 0}
-  m_LocalScale: {x: 0.52, y: 0.52, z: 0.52}
+  m_LocalPosition: {x: -36.1742, y: 15.643, z: 0}
+  m_LocalScale: {x: 0.620568, y: 0.598624, z: 0.52}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1134411389}
@@ -33894,6 +33902,10 @@ PrefabInstance:
       propertyPath: startNode
       value: kingsnowball
       objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37743,6 +37755,10 @@ PrefabInstance:
       propertyPath: startNode
       value: PeanutMan
       objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39091,6 +39107,10 @@ PrefabInstance:
       propertyPath: startNode
       value: GoldKingSnowBall
       objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39307,6 +39327,10 @@ PrefabInstance:
     - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
       propertyPath: startNode
       value: Penguine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42329,7 +42353,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: e9e1a81d91a66c648b527fb5362cb848, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42452,11 +42476,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.22044475
+      value: 0.31625006
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.23356277
+      value: 0.30830288
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalScale.z
@@ -42464,11 +42488,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.399
+      value: -45.103
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.966
+      value: 15.835
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -49353,11 +49377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 379876642553917861, guid: 74de3368dbbb2b4459d1ae3415ab8882, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -75.12
+      value: -42.81
       objectReference: {fileID: 0}
     - target: {fileID: 379876642553917861, guid: 74de3368dbbb2b4459d1ae3415ab8882, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.33
+      value: 15.01
       objectReference: {fileID: 0}
     - target: {fileID: 379876642553917861, guid: 74de3368dbbb2b4459d1ae3415ab8882, type: 3}
       propertyPath: m_LocalPosition.z

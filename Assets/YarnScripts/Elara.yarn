@@ -1,7 +1,11 @@
 ﻿title: Elara
 tags:
+position: -93,-222
 ---
-Joss:Hey Elara I heard some rumors
+<<declare $ElaraInteraction = 0>>
+
+<<if $ElaraInteraction == 0>>
+Joss:Hey Elara I heard some rumors(By Ashish Kumar 200603125)
 Elara:Please, you must help me! Something precious has vanished… my locket.
 Juss:
 ->A locket? Why is it so important?
@@ -11,4 +15,27 @@ Joss:Who saw it? Did you ask him?
 Elara:Sammy saw it, but you know I and Sammy’s family do not talk to each other.
 Joss: Don’t you worry, I will talk to him.
 Elara:Oh thank you Joss.
+<<set $ElaraInteraction = $ElaraInteraction + 1>>
+
+<<stop>>
+
+
+
+<<elseif $ElaraInteraction >= 1>>
+Joss: Elara I found this Journal? Is it true whatever it says?
+Elara:You’ve uncovered what I feared most.The locket was a key, a piece of who I was—a guardian of the old secrets.
+Joss:Alright ! Where is the baby boy?
+Elara: Don’t You get Why I am living here.
+Joss:Are you serious? Sammy is the baby boy?
+Elara:Yes Joss. and i can’t tell him.
+Joss: I will try to convince them.
+Elara:Some other time. For now we have to find the locket, it is so important.
+Joss: I did not find any other clue.
+Elara:Give me this Journal. Let me see if i can get some clue, Thank you for your help.
+<<endif>>
+
+
+
+
+
 ===

@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         {
             walkDirection = Direction.West;
         }
-        if (inputY > 0)
+        else if (inputY > 0)
         {
             walkDirection = Direction.North;
         }

@@ -491,5 +491,5 @@ MonoBehaviour:
   speechPrompt: {fileID: 2216477427853776886}
   questBubble: {fileID: 68830914410594435}
   runner: {fileID: 0}
-  startNode: DialuguesRoboH
+  startNode: 
   canStartConversation: 0
