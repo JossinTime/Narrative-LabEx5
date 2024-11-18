@@ -11,11 +11,10 @@ public class PlayerAreaTrigger : MonoBehaviour
     {
         AreaTrigger area = collision.GetComponent<AreaTrigger>();
 
-        titleText.text = area.title;
-        byLineText.text = "By: " + area.author;
-
         if (area != null)
         {
+            titleText.text = area.title;
+            byLineText.text = "By: " + area.author;
 
             StopAllCoroutines();
             StartCoroutine(AnimateTitle(area, 5));
