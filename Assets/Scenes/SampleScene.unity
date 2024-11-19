@@ -19169,6 +19169,10 @@ PrefabInstance:
       propertyPath: startNode
       value: Freddy
       objectReference: {fileID: 0}
+    - target: {fileID: 5420618925464287034, guid: 1f528c7ff4fa3ab4cb03d0f8a6dbd4a5, type: 3}
+      propertyPath: canStartConversation
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41889,6 +41893,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6487792428298831412, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7131568081768477267, guid: 3558af1a106830c49be9bf77f62847ed, type: 3}
+      propertyPath: canStartConversation
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
