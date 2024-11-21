@@ -7,9 +7,11 @@ position: -93,-222
 <<if $ElaraInteraction == 0>>
 Joss(“Echos of the Past" By Ashish Kumar 200603125):Hey Elara I heard some rumors.
 Elara:Please, you must help me! Something precious has vanished… my locket.
-Joss:
+
 ->A locket? Why is it so important?
 ->Just a locket. Why do you care so much?
+Elara:It was no ordinary locket, it is tied to a promise I can’t break.It’s...complicated. Just know that if it falls into the wrong hands, it couldbring back the past I’ve long tried to bury.
+Joss:Please be calm,and tell me How and where it could possibly go.
 Elara: I don’t know.I was sleeping while it's gone, but heard someone have seen something.
 Joss:Who saw it? Did you ask him?
 Elara:Sammy saw it, but you know I and Sammy’s family do not talk to each other.
