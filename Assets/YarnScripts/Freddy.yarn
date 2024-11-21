@@ -1,18 +1,19 @@
-﻿title: Joss
+﻿title: Freddy
 tags:
+position: 4,-129
 ---
 Joss: Finally I am at the old power station. Ohh the lights are flickering above, and a strange chill fills the air. Is that a symbol etched on the generator?
-
-
--> Enter the building to investigate.
-    <<jump number1>>
--> Call Officer George for backup.
-    <<jump number2>>
+    ->Enter the building to investigate.
+        <<jump op1>>
+    ->Call Officer George for backup.
+        <<jump op2>>
+       
+   
 
 
 ===
-title: number1
-position: -96,190
+title: op1
+position: -133,64
 ---
 Joss:I have to investigate. Let’s see what’s inside.
 Joss:I am in the building now, oh my god there is a group of figures huddled around the power grid , are they performing a ritual! Ohh no is he Freddy?
@@ -22,11 +23,10 @@ Freddy:Do not tell anyone, you will be punished by him.
 Joss:Yes!! I uncovered the hidden cult performing the ritual to control the lights in Washington!
 
 ===
-title: Number2
-position: 208,10
+title: op2
+position: 180,63
 ---
 Joss:I need backup, Officer George he is Freddy, I need you to arrest him.
 Officer George: "Stay put, Joss. We’re coming.
 Joss:Thank God, Officer George arrives with reinforcements and the ritual is stopped, and the cult is arrested.
-
 ===

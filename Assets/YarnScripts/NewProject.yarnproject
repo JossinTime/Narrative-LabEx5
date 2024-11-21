@@ -1,15 +1,6 @@
 {
   "projectFileVersion": 2,
   "sourceFiles": [
-    "Anmol.yarn",
-    "Dialogue_Elara.yarn",
-    "Dialogue_Sammy.yarn",
-    "GoldKingSnowBall.yarn",
-    "Joss.yarn",
-    "kingsnowball.yarn",
-    "OfficerGeorge.yarn",
-    "PeanutMan.yarn",
-    "Story_Journalyarn",
     "**/*.yarn"
   ],
   "excludeFiles": [
