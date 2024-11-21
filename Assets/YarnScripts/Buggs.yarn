@@ -13,28 +13,58 @@ Joss: Fair point. What kind of jewelry are we talking about here?
 
 Bunny: Oh, only the most exquisite! Rings, necklaces, and earrings, all made from the finest forest gems and enchanted silver. Interested? 
 
--> "Sure, show me what you've got."
-    Bunny: (grinning and pulling out a sparkling tray) Excellent choice! Here, we have a moonstone pendant that glows under starlight, a ring that can grant you fleeting luck, and these earrings—crafted from dragonfly wings. Lovely, aren’t they?
+    -> "Sure, show me what you've got."
+            Bunny: (grinning and pulling out a sparkling tray) Excellent choice! Here, we have a moonstone pendant that glows under starlight, a ring that can grant you fleeting luck, and these earrings—crafted from dragonfly wings. Lovely, aren’t they?
 
-    Joss: (examining the pieces) These are beautiful. How much?
+            Joss: (examining the pieces) These are beautiful. How much?
 
-    Bunny: (tapping their chin) For you, let's say... one golden acorn or two shiny river pebbles. 
+            Bunny: (tapping their chin) For you, let's say... one golden acorn or two shiny river pebbles. 
 
-    -> "Deal! I’ll take the moonstone pendant."
-    -> "I don’t have any of that. How about this instead?" [Player offers item]
+            -> "Deal! I’ll take the moonstone pendant."
+                Bunny: (happily hopping) Wonderful choice! Here you go. Handle it with care—moonstones are known to bond with their owners.
 
--> "Jewelry isn't really my thing."
-    Bunny: (tilting their head) Not a fan of shiny things? That’s rare. But no worries, perhaps you’d be more interested in a charm bracelet for luck or a brooch that keeps bad dreams away?
+                Joss: (taking the pendant) Thanks, Buggs. You’ve got a talent for this, you know.
 
-    Joss: (hesitant) I guess I could take a look...
+                Bunny: (beaming) Why thank you, traveler! Come back anytime. And if you find any rare gems or shiny things on your journeys, think of me!
 
-    -> "Show me the charm bracelet." 
-    -> "No thanks. I’ll pass."
--> "Wait, enchanted silver? Is this stuff cursed?"
-    Bunny: (giggling) Cursed? Oh no, Buggs’ Baubles are purely beneficial! The magic’s been tested and approved by the Fairy Council. No nasty side effects, I promise.
+                Joss: Will do. Take care, Buggs. (puts on the pendant and walks away, the moonstone faintly glowing under the sunlight)
 
-    Joss: (relieved) Good to know. In that case, show me what you’ve got!
+                End
+            -> "I don’t have any of that. How about this instead?" [Player offers item]
+                Bunny: (inspecting the offered item) Hmm, let me see... Oh, this is lovely! I’ll gladly trade for this.
 
-    -> [Leads back to Option 1: "Sure, show me what you've got."]
-    -> [Option to walk away.]
-===
+                Joss: (handing over the item) Deal. I’ve got a good feeling about this moonstone pendant.
+
+                Bunny: You’ve got a sharp eye! Wear it well, traveler. And if you find more treasures, you know where to find me!
+
+                Joss: (smiling) Thanks, Buggs. Until next time.
+
+                End
+    -> "Jewelry isn't really my thing."
+            Bunny: (tilting their head) Not a fan of shiny things? That’s rare. But no worries, perhaps you’d be more interested in a charm bracelet for luck or a brooch that keeps bad dreams away?
+
+            Joss: (hesitant) I guess I could take a look...
+
+            -> "Show me the charm bracelet." 
+                Bunny: (placing the charm bracelet on the counter) This one’s special. Each charm tells a story, and the bracelet itself is said to bring good fortune.
+
+                Joss: (examining it) It’s beautiful. How much?
+
+                Bunny: (smiling warmly) For you, just a shiny river pebble.
+
+                Joss: (grinning) Sold. Here you go. Thanks, Bijou.
+
+                Bunny: My pleasure! May it bring you all the luck you need. And remember, come back anytime!
+
+                Joss: I will. See you around, Buggs.
+
+                End
+            -> "No thanks. I’ll pass."
+                Bunny: (nodding politely) Fair enough, traveler. Not everyone is drawn to the shimmer of baubles. But if you ever change your mind, Bijou’s Burrow of Baubles will always be here.
+
+                Joss: (shrugging) Maybe next time. Take care, Buggs.
+
+                Bunny: (waving a paw) Safe travels!
+
+                End
+    ===
