@@ -1,0 +1,40 @@
+﻿title: Buggs
+tags:
+---
+Joss: Hmm, what's this? A little stall in the middle of nowhere?
+
+Bunny: Ah, welcome, traveler! You've found Buggs' Burrow of Baubles! I'm Buggs, provider of the finest jewelry you'll find this side of the forest.
+
+Joss: You're...a bunny. Selling jewelry?
+
+Bunny: Indeed! Who better to craft treasures than someone with nimble paws and an eye for shiny things?
+
+Joss: Fair point. What kind of jewelry are we talking about here?
+
+Bunny: Oh, only the most exquisite! Rings, necklaces, and earrings, all made from the finest forest gems and enchanted silver. Interested? 
+
+-> "Sure, show me what you've got."
+    Bunny: (grinning and pulling out a sparkling tray) Excellent choice! Here, we have a moonstone pendant that glows under starlight, a ring that can grant you fleeting luck, and these earrings—crafted from dragonfly wings. Lovely, aren’t they?
+
+    Joss: (examining the pieces) These are beautiful. How much?
+
+    Bunny: (tapping their chin) For you, let's say... one golden acorn or two shiny river pebbles. 
+
+    -> "Deal! I’ll take the moonstone pendant."
+    -> "I don’t have any of that. How about this instead?" [Player offers item]
+
+-> "Jewelry isn't really my thing."
+    Bunny: (tilting their head) Not a fan of shiny things? That’s rare. But no worries, perhaps you’d be more interested in a charm bracelet for luck or a brooch that keeps bad dreams away?
+
+    Joss: (hesitant) I guess I could take a look...
+
+    -> "Show me the charm bracelet." 
+    -> "No thanks. I’ll pass."
+-> "Wait, enchanted silver? Is this stuff cursed?"
+    Bunny: (giggling) Cursed? Oh no, Buggs’ Baubles are purely beneficial! The magic’s been tested and approved by the Fairy Council. No nasty side effects, I promise.
+
+    Joss: (relieved) Good to know. In that case, show me what you’ve got!
+
+    -> [Leads back to Option 1: "Sure, show me what you've got."]
+    -> [Option to walk away.]
+===

@@ -1946,7 +1946,7 @@ GameObject:
   - component: {fileID: 87804178}
   - component: {fileID: 87804179}
   m_Layer: 0
-  m_Name: Border_0 (3)
+  m_Name: Wall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2859,7 +2859,7 @@ GameObject:
   - component: {fileID: 119339173}
   - component: {fileID: 119339174}
   m_Layer: 0
-  m_Name: door_0
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2874,7 +2874,7 @@ Transform:
   m_GameObject: {fileID: 119339172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 8.59, y: 6.51, z: 0.003729214}
+  m_LocalPosition: {x: -0.69, y: 6.85, z: 0.003729214}
   m_LocalScale: {x: 19.325224, y: 19.372974, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5172,7 +5172,7 @@ GameObject:
   - component: {fileID: 215884663}
   - component: {fileID: 215884664}
   m_Layer: 0
-  m_Name: Narrative_0
+  m_Name: Jewelry stand 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5349,8 +5349,8 @@ Transform:
   m_GameObject: {fileID: 220326390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.15, y: 3.4, z: 0.003729214}
-  m_LocalScale: {x: 8.0775, y: 9.7427, z: 1}
+  m_LocalPosition: {x: 5.2719, y: 3.1806, z: 0.003729214}
+  m_LocalScale: {x: 7.017732, y: 7.748369, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1224069870}
@@ -10670,7 +10670,7 @@ GameObject:
   - component: {fileID: 460954315}
   - component: {fileID: 460954316}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13619,7 +13619,7 @@ GameObject:
   - component: {fileID: 554472359}
   - component: {fileID: 554472360}
   m_Layer: 0
-  m_Name: Border_0 (1)
+  m_Name: Wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13634,7 +13634,7 @@ Transform:
   m_GameObject: {fileID: 554472358}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.47, y: 3.3306, z: 0.003729214}
+  m_LocalPosition: {x: -0.83, y: 3.38, z: 0.003729214}
   m_LocalScale: {x: 10.492765, y: -11.415704, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33084,7 +33084,7 @@ GameObject:
   - component: {fileID: 1380166839}
   - component: {fileID: 1380166840}
   m_Layer: 0
-  m_Name: Border_0 (2)
+  m_Name: Wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33099,8 +33099,8 @@ Transform:
   m_GameObject: {fileID: 1380166838}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.9692, y: 7.03, z: 0.003729214}
-  m_LocalScale: {x: 10.492765, y: -37.54439, z: 1}
+  m_LocalPosition: {x: 3.8146, y: 7.03, z: 0.003729214}
+  m_LocalScale: {x: 10.492765, y: -39.109, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 924307308}
@@ -36888,7 +36888,7 @@ GameObject:
   - component: {fileID: 1555349859}
   - component: {fileID: 1555349860}
   m_Layer: 0
-  m_Name: Border_0
+  m_Name: Wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36903,7 +36903,7 @@ Transform:
   m_GameObject: {fileID: 1555349858}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.87, y: 4.6138, z: 0.003729214}
+  m_LocalPosition: {x: 8.52, y: 4.55, z: 0.003729214}
   m_LocalScale: {x: 10.492765, y: -21.150642, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41457,7 +41457,7 @@ GameObject:
   - component: {fileID: 1731367362}
   - component: {fileID: 1731367363}
   m_Layer: 0
-  m_Name: Narrative_0 (1)
+  m_Name: Jewelry stand 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41472,7 +41472,7 @@ Transform:
   m_GameObject: {fileID: 1731367361}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.3, y: 3.26, z: 0.003729214}
+  m_LocalPosition: {x: 7.3, y: 3.18, z: 0.003729214}
   m_LocalScale: {x: 12.150805, y: 9.3220215, z: 1.6561}
   m_ConstrainProportionsScale: 0
   m_Children: []
