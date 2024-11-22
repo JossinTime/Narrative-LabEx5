@@ -1,70 +1,96 @@
 ﻿title: Buggs
 tags:
+position: 62,-57
 ---
 Joss: Hmm, what's this? A little stall in the middle of nowhere?
 
-Bunny: Ah, welcome, traveler! You've found Buggs' Burrow of Baubles! I'm Buggs, provider of the finest jewelry you'll find this side of the forest.
+Buggs: Ah, welcome, traveler! You've found Buggs' Burrow of Baubles! I'm Buggs, provider of the finest jewelry you'll find this side of the forest.
 
 Joss: You're...a bunny. Selling jewelry?
 
-Bunny: Indeed! Who better to craft treasures than someone with nimble paws and an eye for shiny things?
+Buggs: Indeed! Who better to craft treasures than someone with nimble paws and an eye for shiny things?
 
 Joss: Fair point. What kind of jewelry are we talking about here?
+Buggs: Oh, only the most exquisite! Rings, necklaces, and earrings, all made from the finest forest gems and enchanted silver. Interested?
+->"Sure, show me what you've got."
+    <<jump opn1>>
+->"Jewelry isn't really my thing."
+    <<jump opn2>>
+===
+title: opn1
+position: -78,229
+---
+Buggs: (grinning and pulling out a sparkling tray) Excellent choice! Here, we have a moonstone pendant that glows under starlight, a ring that can grant you fleeting luck, and these earrings—crafted from dragonfly wings. Lovely, aren’t they?
 
-Bunny: Oh, only the most exquisite! Rings, necklaces, and earrings, all made from the finest forest gems and enchanted silver. Interested? 
+Joss: (examining the pieces) These are beautiful. How much?
+Buggs: (tapping their chin) For you, let's say... one golden acorn or two shiny river pebbles.
+->"Deal! I’ll take the moonstone pendant."
+    <<jump opn3>>
+->"I don’t have any of that. How about this instead?" (Player offers item)
+    <<jump opn4>>
+===
+title: opn2
+position: 237,244
+---
+Buggs: (tilting their head) Not a fan of shiny things? That’s rare. But no worries, perhaps you’d be more interested in a charm bracelet for luck or a brooch that keeps bad dreams away?
 
-    -> "Sure, show me what you've got."
-            Bunny: (grinning and pulling out a sparkling tray) Excellent choice! Here, we have a moonstone pendant that glows under starlight, a ring that can grant you fleeting luck, and these earrings—crafted from dragonfly wings. Lovely, aren’t they?
+Joss: (hesitant) I guess I could take a look...
+->"Show me the charm bracelet."
 
-            Joss: (examining the pieces) These are beautiful. How much?
+===
+title: opn3
+position: -400,495
+---
+Buggs: (happily hopping) Wonderful choice! Here you go. Handle it with care—moonstones are known to bond with their owners.
 
-            Bunny: (tapping their chin) For you, let's say... one golden acorn or two shiny river pebbles. 
+Joss: (taking the pendant) Thanks, Buggs. You’ve got a talent for this, you know.
 
-            -> "Deal! I’ll take the moonstone pendant."
-                Bunny: (happily hopping) Wonderful choice! Here you go. Handle it with care—moonstones are known to bond with their owners.
+Buggs: (beaming) Why thank you, traveler! Come back anytime. And if you find any rare gems or shiny things on your journeys, think of me!
 
-                Joss: (taking the pendant) Thanks, Buggs. You’ve got a talent for this, you know.
+Joss: Will do. Take care, Buggs. (puts on the pendant and walks away, the moonstone faintly glowing under the sunlight)
 
-                Bunny: (beaming) Why thank you, traveler! Come back anytime. And if you find any rare gems or shiny things on your journeys, think of me!
+End
+===
+title: opn4
+position: -21,597
+---
+Buggs: (inspecting the offered item) Hmm, let me see... Oh, this is lovely! I’ll gladly trade for this.
 
-                Joss: Will do. Take care, Buggs. (puts on the pendant and walks away, the moonstone faintly glowing under the sunlight)
+Joss: (handing over the item) Deal. I’ve got a good feeling about this moonstone pendant.
 
-                End
-            -> "I don’t have any of that. How about this instead?" [Player offers item]
-                Bunny: (inspecting the offered item) Hmm, let me see... Oh, this is lovely! I’ll gladly trade for this.
+Buggs: You’ve got a sharp eye! Wear it well, traveler. And if you find more treasures, you know where to find me!
 
-                Joss: (handing over the item) Deal. I’ve got a good feeling about this moonstone pendant.
+Joss: (hesitant) I guess I could take a look...
+->"Show me the charm bracelet."
+    <<jump opn5>>
+->"No thanks. I’ll pass."
+    <<jump opn6>>
+===
+title: opn5
+position: 103,522
+---
+Buggs: (placing the charm bracelet on the counter) This one’s special. Each charm tells a story, and the bracelet itself is said to bring good fortune.
 
-                Bunny: You’ve got a sharp eye! Wear it well, traveler. And if you find more treasures, you know where to find me!
+Joss: (examining it) It’s beautiful. How much?
 
-                Joss: (smiling) Thanks, Buggs. Until next time.
+Buggs: (smiling warmly) For you, just a shiny river pebble.
 
-                End
-    -> "Jewelry isn't really my thing."
-            Bunny: (tilting their head) Not a fan of shiny things? That’s rare. But no worries, perhaps you’d be more interested in a charm bracelet for luck or a brooch that keeps bad dreams away?
+Joss: (grinning) Sold. Here you go. Thanks, Buggs.
 
-            Joss: (hesitant) I guess I could take a look...
+Buggs: My pleasure! May it bring you all the luck you need. And remember, come back anytime!
 
-            -> "Show me the charm bracelet." 
-                Bunny: (placing the charm bracelet on the counter) This one’s special. Each charm tells a story, and the bracelet itself is said to bring good fortune.
+Joss: I will. See you around, Buggs.
 
-                Joss: (examining it) It’s beautiful. How much?
+End
+===
+title: opn6
+position: 694,532
+---
+Buggs: (nodding politely) Fair enough, traveler. Not everyone is drawn to the shimmer of baubles. But if you ever change your mind, Buggs' Burrow of Baubles will always be here.
 
-                Bunny: (smiling warmly) For you, just a shiny river pebble.
+Joss: (shrugging) Maybe next time. Take care, Buggs.
 
-                Joss: (grinning) Sold. Here you go. Thanks, Bijou.
+Buggs: (waving a paw) Safe travels!
 
-                Bunny: My pleasure! May it bring you all the luck you need. And remember, come back anytime!
-
-                Joss: I will. See you around, Buggs.
-
-                End
-            -> "No thanks. I’ll pass."
-                Bunny: (nodding politely) Fair enough, traveler. Not everyone is drawn to the shimmer of baubles. But if you ever change your mind, Bijou’s Burrow of Baubles will always be here.
-
-                Joss: (shrugging) Maybe next time. Take care, Buggs.
-
-                Bunny: (waving a paw) Safe travels!
-
-                End
-    ===
+End
+===
