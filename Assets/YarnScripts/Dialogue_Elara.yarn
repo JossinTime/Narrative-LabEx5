@@ -17,13 +17,13 @@ Joss:Who saw it? Did you ask him?
 Elara:Sammy saw it, but you know I and Sammy’s family do not talk to each other.
 Joss: Don’t you worry, I will talk to him.
 Elara:Oh thank you Joss.
-<<set $ElaraInteraction = 1>>
+<<set $ElaraInteraction = 2>>
 
 <<stop>>
 
 
 
-<<elseif $ElaraInteraction == 1>>
+<<elseif $ElaraInteraction == 3>>
 Joss: Elara I found this Journal? Is it true whatever it says?
 Elara:You’ve uncovered what I feared most.The locket was a key, a piece of who I was—a guardian of the old secrets.
 Joss:Alright ! Where is the baby boy?

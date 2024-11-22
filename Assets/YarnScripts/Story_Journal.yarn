@@ -3,5 +3,6 @@ tags:
 ---
 
 Story in the Journal (“Echos of the Past" By Ashish Kumar 200603125) :9 years ago a witch used to live here in the town.she was the guardian of this city but one day she fell in love with a man, after an year she became mother of a baby boy, It was forbidden in the witches coven to mary, so she got cursed to lose her magic and the man was also cursed to forget everything, then the man took the baby boy married another woman and started living happily but the Witch tried everything to make them remind and that lead to having conflict and they are not communicating from then. The witch’s name was Elara.
+    <<set $ElaraInteraction = 3>>
     <<disable_journal_sprite JournalActive>>
 ===
