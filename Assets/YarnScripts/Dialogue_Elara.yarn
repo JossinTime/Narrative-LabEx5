@@ -20,7 +20,7 @@ Joss: Don’t you worry, I will talk to him.
 Elara:Oh thank you Joss.
 <<set $ElaraInteraction = 2>>
 <<set $ElaraDialogue = true>>
-<< enable_journal_sprite JournalActive>>
+
 
 <<stop>>
 

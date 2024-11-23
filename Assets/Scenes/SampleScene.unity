@@ -7135,7 +7135,6 @@ Transform:
   - {fileID: 1141997418}
   - {fileID: 982661692}
   - {fileID: 933345611}
-  - {fileID: 1792102930}
   - {fileID: 1440061384}
   - {fileID: 553915972}
   m_Father: {fileID: 0}
@@ -13614,6 +13613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   journalSprite: {fileID: 982661690}
+  animator: {fileID: 0}
 --- !u!1 &554472358
 GameObject:
   m_ObjectHideFlags: 0
@@ -24115,6 +24115,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1778793818}
+  - {fileID: 1792102930}
   m_Father: {fileID: 293673217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &986893295
@@ -43169,11 +43170,11 @@ Transform:
   m_GameObject: {fileID: 1792102928}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.193054, y: 22.861362, z: 3.7924404}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
+  m_LocalPosition: {x: 13.726505, y: -1.937225, z: 8.396642}
+  m_LocalScale: {x: 3.3986409, y: 3.3986409, z: 3.3986409}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 293673217}
+  m_Father: {fileID: 982661692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1793605728
 PrefabInstance:
