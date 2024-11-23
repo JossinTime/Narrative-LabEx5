@@ -6,9 +6,10 @@ using Yarn.Unity;
 public class SpriteManager : MonoBehaviour
 {
     public GameObject journalSprite;
+    public Animator animator;
     private void Start()
     {
-        journalSprite.SetActive(true);
+        journalSprite.SetActive(false);
     }
 
     [YarnCommand("disable_journal_sprite")]
@@ -28,4 +29,7 @@ public class SpriteManager : MonoBehaviour
             journalSprite.SetActive(true);
         }
     }
+
+    
+
 }

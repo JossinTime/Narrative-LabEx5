@@ -2,7 +2,7 @@
 tags:
 ---
 <<declare $SammyInteraction = 0>>
-<<if $SammyInteraction == 0>>
+<<if $journaPickup == false && $ElaraDialogue == true>>
 Joss(“Echos of the Past" By Ashish Kumar 200603125):Hii Sammy, I heard you saw something last night.
 Sammy:I…. I saw it. The shadow took the locket.  But it wasn’t just a  shadow—it whispered a name. It said… it was coming back."
 Joss:Whose name did it whisper, Sammy?
@@ -11,15 +11,24 @@ Joss:Where did it go then?
 Sammy:It went towards the forest
 Joss:Thanks Sammy! See you again
 <<set $SammyInteraction = 1>>
+<<set $ElaraDialogue = false>>
 <<stop>>
 
-<<elseif $SammyInteraction == 1>>
+<<elseif $SammyInteraction == 1 && $journaPickup == true>>
 Sammy: Hi Joss, Did you find Something.
 Joss: No, I didn't find anything.
 Sammy: Okay Take care Joss.
 Joss:You too.
 
 
+
+
+<<elseif $SammyInteraction == 0>>
+Joss(“Echos of the Past" By Ashish Kumar 200603125): Hi Sammy,
+Sammy: Hi Joss, What's up?
+Joss: everythig is fine, just passing by
+Sammy: Okay have a good day
 <<endif>>
+<<stop>>
 
 ===

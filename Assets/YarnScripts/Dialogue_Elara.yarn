@@ -3,6 +3,7 @@ tags:
 position: -93,-222
 ---
 <<declare $ElaraInteraction = 0>>
+<<declare $ElaraDialogue = false>>
 
 <<if $ElaraInteraction == 0>>
 Joss(“Echos of the Past" By Ashish Kumar 200603125):Hey Elara I heard some rumors.
@@ -18,6 +19,8 @@ Elara:Sammy saw it, but you know I and Sammy’s family do not talk to each othe
 Joss: Don’t you worry, I will talk to him.
 Elara:Oh thank you Joss.
 <<set $ElaraInteraction = 2>>
+<<set $ElaraDialogue = true>>
+<< enable_journal_sprite JournalActive>>
 
 <<stop>>
 
