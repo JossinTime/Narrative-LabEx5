@@ -36,6 +36,9 @@ Buggs: (tilting their head) Not a fan of shiny things? That’s rare. But no wor
 
 Joss: (hesitant) I guess I could take a look...
 ->"Show me the charm bracelet."
+    <<jump opn5>>
+->"No thanks. I’ll pass."
+    <<jump opn6>>
 
 ===
 title: opn3
@@ -60,11 +63,7 @@ Joss: (handing over the item) Deal. I’ve got a good feeling about this moonsto
 
 Buggs: You’ve got a sharp eye! Wear it well, traveler. And if you find more treasures, you know where to find me!
 
-Joss: (hesitant) I guess I could take a look...
-->"Show me the charm bracelet."
-    <<jump opn5>>
-->"No thanks. I’ll pass."
-    <<jump opn6>>
+End
 ===
 title: opn5
 position: 103,522
